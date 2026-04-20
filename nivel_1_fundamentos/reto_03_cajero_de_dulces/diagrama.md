@@ -1,6 +1,5 @@
 ```mermaid
 graph TD
-    
     A([INICIO]) --> B[Leer precio, pago]
 
     B --> C[Calcular cambio = pago - precio]
@@ -30,5 +29,6 @@ graph TD
     N --> O[i = i + 1]
     O --> I
 
-    K -- No --> O
+    K -- No --> P[i = i + 1]
+    P --> I
 ```
